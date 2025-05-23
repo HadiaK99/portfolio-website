@@ -45,7 +45,7 @@ export default function Home() {
              <h2 className="text-5xl py-2 text-cyan-500 font-medium md:text-6xl"> Hadia Khan </h2>
              <h3 className="text-2xl py-2 md:text-3xl dark:text-white">Developer and Engineer.</h3>
              <p className="text-md py-5 leading-8 text-gray-700 md:text-xl max-w-xl mx-auto dark:text-white">
-                Full Stack Developer by title, professional problem solver by nature—React, TypeScript, Node.js, and a touch of caffeine fuel my magic.
+                Full Stack Developer by title, professional problem solver by nature—React, TypeScript, Node.js, and a touch of caffeine to fuel my magic.
                 {/* Full Stack developer, with proficiency in multiple stacks including React, Next, Node, Django, and beyond.
                 At my core, I'm a problem solver—ready to tackle any challenge that comes my way! */}
               </p>
