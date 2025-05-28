@@ -4,9 +4,9 @@ import { AiFillGithub, AiFillMail, AiFillLinkedin } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import Image from 'next/image';
 import profileImage from './public/IMG_7372.jpg';
-import design from './public/design.png';
-import code from './public/code.png';
-import consulting from './public/consulting.png';
+import fullstack from './public/fullstack.png';
+import scale from './public/scale.png';
+import robust from './public/robust.png';
 import web1 from './public/web1.png';
 import web2 from './public/web2.png';
 import web3 from './public/web3.png';
@@ -43,7 +43,7 @@ export default function Home() {
           </nav>
           <div className="text-center p-10">
              <h2 className="text-5xl py-2 text-cyan-500 font-medium md:text-6xl"> Hadia Khan </h2>
-             <h3 className="text-2xl py-2 md:text-3xl dark:text-white">Developer and Engineer.</h3>
+             <h3 className="text-1xl font-semibold py-2 md:text-2xl dark:text-white">Developer and Engineer.</h3>
              <p className="text-md py-5 leading-8 text-gray-700 md:text-xl max-w-xl mx-auto dark:text-white">
                 Full Stack Developer by title, professional problem solver by nature—React, TypeScript, Node.js, and a touch of caffeine to fuel my magic.
                 {/* Full Stack developer, with proficiency in multiple stacks including React, Next, Node, Django, and beyond.
@@ -69,7 +69,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-cyan-800">Services I offer</h3>
+            <h3 className="text-3xl font-semibold py-1 dark:text-cyan-800">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-700 dark:text-gray-400">
               Code whisperer by day, bug wrangler by night.
             </p>
@@ -79,20 +79,20 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10 ">
             <div className="text-center justify-items-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={design} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-gray-300">Full-Stack Development</h3>
+              <Image src={fullstack} width={100} height={100} />
+              <h3 className="text-lg font-semibold pt-8 pb-2 dark:text-gray-300">Full-Stack Development</h3>
               <p className="py-2  dark:text-white">Leveraging modern frameworks and tools to build scalable, high-performance web applications.</p>
-              <h4 className="py-4 text-cyan-600">Technologies I Use</h4>
+              <h4 className="py-4 font-semibold text-cyan-600">Technologies I Use</h4>
               <p className="text-gray-700 py-1 dark:text-gray-400">React, Next.js, MUI, TypeScript</p>
-              <p className="text-gray-700 py-1 dark:text-gray-400">Redux, Redux Saga, Parse Cloud</p>
+              <p className="text-gray-700 py-1 dark:text-gray-400">Redux Saga, Parse Cloud</p>
               <p className="text-gray-700 py-1 dark:text-gray-400">Node.js, Flask</p>
               <p className="text-gray-700 py-1 dark:text-gray-400">SQL, PostgreSQL, Neo4j</p>
             </div>
             <div className="text-center justify-items-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={code} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-gray-300">Robust and Scalable Code</h3>
+              <Image src={robust} width={100} height={100} />
+              <h3 className="text-lg font-semibold pt-8 pb-2 dark:text-gray-300">Robust and Scalable Code</h3>
               <p className="py-2  dark:text-white">Curating clean, modular, and high-performance applications with a focus on maintainability and scalability.</p>
-              <h4 className="py-4 text-cyan-600">Languages and Frameworks I Use</h4>
+              <h4 className="py-4 font-semibold text-cyan-600">Languages and Frameworks I Use</h4>
               <p className="text-gray-700 py-1 dark:text-gray-400">JavaScript (ES6+), TypeScript</p>
               <p className="text-gray-700 py-1 dark:text-gray-400">Python</p>
               <p className="text-gray-700 py-1 dark:text-gray-400">C++</p>
@@ -100,10 +100,10 @@ export default function Home() {
               <p className="text-gray-700 py-1 dark:text-gray-400">SQL</p>
             </div>
             <div className="text-center justify-items-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={consulting} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-gray-300">Scalable System Architecture</h3>
+              <Image src={scale} width={100} height={100} />
+              <h3 className="text-lg font-semibold pt-8 pb-2 dark:text-gray-300">Scalable System Architecture</h3>
               <p className="py-2  dark:text-white">Architecting efficient, serverless, and cloud-integrated solutions for performance and scalability.</p>
-              <h4 className="py-4 text-cyan-600">Technologies & Services</h4>
+              <h4 className="py-4 font-semibold text-cyan-600">Technologies & Services</h4>
               <p className="text-gray-700 py-1 dark:text-gray-400">Google & Microsoft SSO</p>
               <p className="text-gray-700 py-1 dark:text-gray-400">Stripe Payment Integration</p>
               <p className="text-gray-700 py-1 dark:text-gray-400">Serverless Functions</p>
@@ -113,7 +113,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-cyan-800">Portfolio</h3>
+            <h3 className="text-3xl font-semibold py-1 dark:text-cyan-800">Portfolio</h3>
             {/* <p className="text-md py-2 leading-8 text-gray-700 dark:text-gray-400">
               Code whisperer by day, bug wrangler by night.
             </p> */}
