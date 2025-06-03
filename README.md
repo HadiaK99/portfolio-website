@@ -6,6 +6,9 @@ First, run the development server:
 
 1. Check node version (20.x.x)
 2. Development: npm run dev
+
+OR
+
 2. Build: npm run build
 3. Run: npm run start
 
